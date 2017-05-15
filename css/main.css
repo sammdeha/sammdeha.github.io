@@ -1,3 +1,104 @@
-body{
-    background-color: red;
+* {
+    box-sizing: border-box;
+}
+body {margin:0;
+    background-color: #47655c;
+}
+
+nav{
+    z-index: 2;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.active {
+    background-color: #47655c;
+}
+.foto_1{
+    width: 100%;
+    margin-top: -5px;
+}
+
+
+h1{
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    width: 100%;
+    font-size: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    z-index: 1;
+}
+
+.about-us{
+    position: absolute;
+    text-align: center;
+    top: 900px;
+    left: 950px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.contact-us{
+    position: absolute;
+    text-align: center;
+    top: 1400px;
+    left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#contact-info{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    top: 100px;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about-us{
+    position: absolute;
+    text-align: right;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+    
+}
+.logo{
+    position: absolute;
+    left: 370px;
+    top: 300px;
+}
+.navigatie-logo{
+    width: 70px;
 }
