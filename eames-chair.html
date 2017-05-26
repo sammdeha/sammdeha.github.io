@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About us</title>
+    <title>Eames Chair</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-
 </head>
 <body>
-
     <nav>
         <ul>
   <li><a class="active" href="index.html"><img class="navigatie-logo" src="img/Logo.png" alt="Chairs"></a></li>
@@ -21,20 +19,46 @@
   <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-   <div class="about-us-text"> 
-    <p><strong>About us </strong><br>
-    Hi! We are “Name yet to come”, individuals with a passion for
-    creativity — creativity makes us happy. We truly believe in the<br>
-    transformative power of illustration and design and their ability to
-    simplify communications, elevate experiences, engage and inspire<br>
-    people everywhere. Good design and good relationships come
-    from collaboration. We’re excited to start a visual dialogue, learn<br>
-    about you, and make something beautiful together.</p>
-    </div>
 
-<img class="foto_1" src="img/about-us.jpg" alt="Foto van stoel">
+    <img class="product" src="img/product-1.png" alt="Foto van stoel">
 
-<div class="grid__wrapper">
+    <p class="product-description-buy">Eames Chair</p>
+
+<div class="form">
+  <form action="/action_page.php">
+    <label for="fname">Voornaam</label>
+    <input type="text" id="fname" name="firstname" placeholder="Vul hier u voornaam in.."> <br>
+
+    <label for="lname">Achternaam</label>
+    <input type="text" id="lname" name="lastname" placeholder="Vul hier u achternaam in.."> <br>
+
+    <label for="street">Adres</label>
+    <input type="text" id="lname" name="lastname" placeholder="Vul hier u adres in.."> <br>
+
+     <label for="street">Plaats</label>
+    <input type="text" id="lname" name="lastname" placeholder="Vul hier u plaats in.."> <br>
+
+         <label for="street">E-mail</label>
+    <input type="text" id="lname" name="lastname" placeholder="Vul hier u E-mail adres in.."> <br>
+
+    <label for="color">Kleur</label>
+    <select name="color">
+      <option value="White">Wit</option>
+      <option value="Blue">Blauw</option>
+      <option value="Yellow">Geel</option>
+      <option value="Green">Groen</option>
+      <option value="Black">Zwart</option>
+    </select>
+  
+    <input type="submit" value="Koop">
+  </form>
+</div>
+
+
+
+
+
+<div class="grid__wrapper footer">
     <div class="grid__row">
         <footer class="footer">
             <div class="grid__column-3 grid__offset-1">
@@ -52,6 +76,5 @@
     </div>
 </div>
 
-    
 </body>
 </html>
