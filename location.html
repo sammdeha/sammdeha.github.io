@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Location</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+    <ul>
+    <li><a class="active" href="index.html"><img class="navigatie-logo" src="img/Logo.png" alt="Chairs"></a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="chairs.html">Chairs</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="location.html">Location</a></li>
+    </ul>
+    </nav>
+
+    <div>
+    <p id="adres"> 
+    718 WASHINGTON AVENUE
+    SUITE 210<br>
+    MINNEAPOLIS, MN 55401<br>
+    612 224 9945<br>
+    CHAIRS@EIGHTHOURDAT.COM</p>
+    </div>
+    <!--LEGE DIV toevoegen aan html -->
+    <div id="map"></div>
+
+
+    <!-- SETTINGS -->
+    <div class="row">
+    <div class="col-sm-4">
+        <div class="settings">
+
+            <div class="form-group">
+                <label> Stijlen </label> 
+                </div>
+                <div class="form-group">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- GOOGLE MAPS, link uit pdf halen-->
+    <!-- YOUR_KEY vervangen door eigen ket van Google -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCax7TwrCHFX0iMIJe1XrGfwWipmTTyKw"></script>
+
+    <!-- EIGEN SCRIPT-->
+    <script type="text/javascript" src="script.js"></script>
+
+    </body>
+</html>
