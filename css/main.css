@@ -102,10 +102,9 @@ a{
 }
 .logo{
     position: absolute;
-    width: 1000px;
-    left: 650px;
-    top: 50px;
-    width: 800px;
+    left: 750px;
+    top: 100px;
+    width: 600px;
 }
 .navigatie-logo{
     width: 70px;
